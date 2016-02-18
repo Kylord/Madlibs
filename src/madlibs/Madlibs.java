@@ -22,7 +22,7 @@ public class Madlibs {
         MaDictionary dict = new MaDictionary();
         System.out.println(dict.getrandomAdj());
         System.out.println(dict.getrandomNoun() + " is very " + dict.getrandomAdj());
-        // TODO code application logic here
+        // Insert new sentences here
     }
     
 }
