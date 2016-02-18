@@ -7,7 +7,6 @@ package madlibs;
 import java.util.ArrayList;
 import java.io.File;
 import java.util.Scanner;
-
 /**
  *
  * @author Kyler
@@ -22,6 +21,9 @@ public class Madlibs {
         MaDictionary dict = new MaDictionary();
         System.out.println(dict.getrandomAdj());
         System.out.println(dict.getrandomNoun() + " is very " + dict.getrandomAdj());
+        String lib = "Noun has a very Adjective Noun";
+        MadFill Full = new MadFill(lib);
+        
         // Insert new sentences here
     }
     
